@@ -16,8 +16,32 @@ public class Addition {
 		System.out.print("Enter second integer: ");
 		number2 = input.nextInt();
 		
-		sum = number1+number2;
+		if (number1 == number2) {
+			System.out.printf("%d == %d%n", number1, number2);
+		}
 		
-		System.out.printf("Sum is %d%n", sum);
+		if (number1 != number2) {
+			System.out.printf("%d != %d%n", number1, number2);
+		}		
+		
+		if (number1 < number2) {
+			System.out.printf("%d < %d%n", number1, number2);
+		}
+		
+		if (number1 > number2) {
+			System.out.printf("%d > %d%n", number1, number2);
+		}		
+		
+		
+		if (number1 <= number2) {
+			System.out.printf("%d <= %d%n", number1, number2);
+		}		
+		
+		if (number1 >= number2) {
+			System.out.printf("%d >= %d%n", number1, number2);
+		}			
+
 	}
+	
+
 }
