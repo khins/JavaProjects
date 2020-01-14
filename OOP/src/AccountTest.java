@@ -7,7 +7,7 @@ public class AccountTest {
 
 		Scanner input = new Scanner(System.in);
 		
-		Account myAccount = new Account();
+		Account myAccount = new Account("jim brown");
 		System.out.printf("initial name is %s%n%n", myAccount.getName());
 		
 		System.out.println("Please enter a name: ");
