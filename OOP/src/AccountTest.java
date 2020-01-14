@@ -5,18 +5,12 @@ public class AccountTest {
 
 	public static void main(String[] args) {
 
-		Scanner input = new Scanner(System.in);
+		//	Using the Account constructor to initialize the name instance variable when each Account object is created
+		Account account1 = new Account("John Doe");
+		Account account2 = new Account("Jane Dough");
 		
-		Account myAccount = new Account("jim brown");
-		System.out.printf("initial name is %s%n%n", myAccount.getName());
-		
-		System.out.println("Please enter a name: ");
-		
-		String theName = input.nextLine();
-		
-		myAccount.setName(theName);
-		
-		System.out.printf("Name in object myAccount is: %s%n%n", myAccount.getName());
+		System.out.printf("Account1 is: %s%n", account1.getName());
+		System.out.printf("Account2 is: %s%n", account2.getName()); 
 		
 		
 
